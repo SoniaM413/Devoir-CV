@@ -13,6 +13,9 @@ h2{
     font-weight: normal;
     margin-bottom: 35px;
 }
+h3{
+    color: #17abb3;
+}
 img{
     width: 200px;
     height: 200px;
@@ -49,7 +52,6 @@ address{
 address a:hover{
     opacity: 0.4;
 }
-
 body{
     margin: auto;
     max-width: 1160px;
@@ -57,4 +59,45 @@ body{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+}
+main{
+    display: flex;
+}
+#colonnegauche{
+    width: 30%;
+    padding:0px 20px 0px 20px;
+    background-color: #e3e3e3;
+    margin: 1px;
+}
+.colonnedroite{
+    width: 70%;
+    padding: 30px;
+    background-color: #ffffff;
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.etoiles{
+    font-weight: bold;
+}
+.etoiles li{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.etoiles li span{
+    font-weight: lighter;
+}
+.stars{
+    color: #17abb3;
+}
+#carré li::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #17abb3;
+    margin-right: 10px;
 }
