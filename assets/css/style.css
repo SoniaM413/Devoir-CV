@@ -15,6 +15,10 @@ h2{
 }
 h3{
     color: #17abb3;
+    border-bottom: 2px solid rgb(168, 168, 168);
+}
+h4{
+    margin: 0px;
 }
 img{
     width: 200px;
@@ -101,3 +105,23 @@ ul{
     background-color: #17abb3;
     margin-right: 10px;
 }
+.formation li{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+aside:hover{
+    background-color: #e3e3e3;
+    border-left: 10px solid #17abb3;
+}
+data{
+    color: #17abb3;
+}
+
